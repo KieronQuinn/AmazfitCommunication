@@ -13,6 +13,17 @@ If you wish to build the library to a **jar** file, use the "build", then "delet
 
 ## Usage
 
+Place the latest AmazfitCommunication.jar file ([from the releases page](https://github.com/KieronQuinn/AmazfitCommunication/releases)) in your "libs" folder of your project. Your build.gradle should be configured to pick it up automatically, but if it isn't, add this line:
+```
+implementation fileTree(dir: 'libs', include: ['*.jar'])
+```
+
+Note that if you wish to use the easy IOUtils.toString() method described below, you must also add the commons-io library. It's best to get the latest version, the number of which can be found [here](https://commons.apache.org/proper/commons-io/dependency-info.html), but adding it is as simple as adding the following to your build.gradle (update the version code if you need to):
+
+```
+compile group: 'commons-io', name: 'commons-io', version: '2.0.1'
+```
+
 There are two components to this library. The first is the **LocalHTTPRequest** option, which relies on the AmazfitInternetCommunication app on the phone, and thus doesn't require you to build your own companion app. It provides a limited way of accessing the internet, as follows:
 
 ### Internet
