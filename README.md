@@ -1,5 +1,5 @@
 # Amazfit Communication Library
-The Amazfit Communication Library is a reverse engineered and modified version of the Huami "Transformer" class (and its subclass "TransformerClassic"), along with its dependencies. This allows both sending and receiving data on both the phone and the watch, using the same library.
+The Amazfit Communication Library is a reverse engineered and modified version of the Huami "Transporter" class (and its subclass "TransporterClassic"), along with its dependencies. This allows both sending and receiving data on both the phone and the watch, using the same library.
 
 Bascially, this allows apps on the watch to access data via a companion app on the phone. To make this easier, this library comes hand in hand with the "AmazfitInternetCommunication" app, which can be installed on the phone and allows apps on the watch to access the internet and perform simple requests, with data in response. 
 
