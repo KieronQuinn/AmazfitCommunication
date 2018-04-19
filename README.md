@@ -104,3 +104,8 @@ The same code works on both phone and watch, but obviously don't use identical c
 
 **Full usage**
 To see how to use DataBundles, callbacks and more, see the [example folder](https://github.com/KieronQuinn/AmazfitCommunication/tree/master/example) with an example project in it.
+
+## Credits
+Thanks to @edotassi for work on the [AmazMod](https://github.com/edotassi/AmazMod) project. Although no code was actually taken from that project, the [BatteryStatsReceiver](https://github.com/edotassi/AmazMod/blob/master/patched/src/main/java/com/edotasx/amazfit/service/BatteryStatsReceiver.java) class provided a good idea of how the Transporter worked
+
+Programs used during decompilation were dex2jar and the JEB decompiler
